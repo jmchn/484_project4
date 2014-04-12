@@ -16,7 +16,7 @@ Status Operators::Select(const string & result,      // name of the output relat
 		         const Operator op,         // predicate operation
 		         const void *attrValue)     // literal value in the predicate
 {
-
+// this is a comment
 return OK;
 }
 
