@@ -77,6 +77,13 @@ Status Operators::IndexSelect(const string& result,       // Name of the output 
     {
         return statusScanNext;
     }
+    // end the index scan
+    Status statusEndScan;
+    statusEndScan = attrIndex.endScan();
+    if(statusStartScan != OK)
+    {
+        return statusEndScan;
+    }
     return OK;
 }
 

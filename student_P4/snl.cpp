@@ -2,7 +2,7 @@
 #include "query.h"
 #include "sort.h"
 #include "index.h"
-
+#include <cstring>
 Status Operators::SNL(const string& result,           // Output relation name
                       const int projCnt,              // Number of attributes in the projection
                       const AttrDesc attrDescArray[], // Projection list (as AttrDesc)
@@ -16,7 +16,7 @@ Status Operators::SNL(const string& result,           // Output relation name
   /* Your solution goes here */
   Status Scanattr1;
   HeapFileScan *FindMatch1;
-  FindMatch1 = new HeapFileScan(attrDesc1->relname, Scanattr1);
+  FindMatch1 = new HeapFileScan(attrDesc1.relName, Scanattr1);
 
   if (Scanattr1 != OK){
   	return Scanattr1;
@@ -37,7 +37,7 @@ Status Operators::SNL(const string& result,           // Output relation name
   while((statusGetNext1 = FindMatch1->scanNext(outRid1,rec1)) ==OK){
   	Status  Scanattr2;
   	HeapFileScan *FindMatch2;
-  	FindMatch2 = new HeapFileScan(attrDesc2->relname, Scanattr2);
+  	FindMatch2 = new HeapFileScan(attrDesc2.relName, Scanattr2);
   	if (Scanattr2 != OK){
   		return Scanattr2;
   	}
@@ -57,13 +57,13 @@ Status Operators::SNL(const string& result,           // Output relation name
         			char* temp = data;
         			for( i = 0 ; i < projCnt ; i++)
         			{
-        				if ( strcmp(projNames[i].relname, attrDesc1.relname) ){
-            					memcpy(temp,(char*)rec1.data+projNames[i].attrOffset,projNames[i].attrLen);
-            					temp = temp + projNames[i].attrLen;
+        				if ( strcmp(attrDescArray[i].relName, attrDesc1.relName) ){
+            					memcpy(temp,(char*)rec1.data+attrDescArray[i].attrOffset,attrDescArray[i].attrLen);
+            					temp = temp + attrDescArray[i].attrLen;
             				}
             				else {
-            					memcpy(temp,(char*)rec2.data+projNames[i].attrOffset,projNames[i].attrLen);
-            					temp = temp + projNames[i].attrLen;
+            					memcpy(temp,(char*)rec2.data+attrDescArray[i].attrOffset,attrDescArray[i].attrLen);
+            					temp = temp + attrDescArray[i].attrLen;
             				}
         			}
         			resultRec.data = (void*) data;

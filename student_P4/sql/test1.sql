@@ -1,0 +1,11 @@
+CREATE TABLE A(id integer , age integer);
+CREATE TABLE B(id integer , age integer);
+CREATE index A(id);
+insert into A(id,age) VALUES (1,2);
+insert into A(id,age) VALUES (2,2);
+insert into B(id,age) VALUES (1,33);
+insert into B(id,age) VALUES (3,2);
+SELECT A.id, A.age,B.id,B.age FROM A, B WHERE A.id = B.id;
+DROP index A(id);
+DROP TABLE A;
+DROP TABLE B;

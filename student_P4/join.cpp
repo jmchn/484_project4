@@ -52,7 +52,7 @@ Status Operators::Join(const string& result,           // Name of the output rel
             {
                 attrDesc2 = temp;
             }
-            if(strcmp(temp->attrName, projNames[j].attrName))
+            if(strcmp(temp->attrName, projNames[j].attrName)==0)
             {
                 projNamesDesc[j]=*temp;
                 len+=temp->attrLen;
