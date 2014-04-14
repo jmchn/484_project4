@@ -57,7 +57,7 @@ Status Operators::SNL(const string& result,           // Output relation name
         			char* temp = data;
         			for( i = 0 ; i < projCnt ; i++)
         			{
-        				if ( strcmp(attrDescArray[i].relName, attrDesc1.relName) ){
+        				if ( strcmp(attrDescArray[i].relName, attrDesc1.relName)==0 ){
             					memcpy(temp,(char*)rec1.data+attrDescArray[i].attrOffset,attrDescArray[i].attrLen);
             					temp = temp + attrDescArray[i].attrLen;
             				}
