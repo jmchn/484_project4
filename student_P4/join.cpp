@@ -4,6 +4,7 @@
 #include "index.h"
 #include <cmath>
 #include <cstring>
+#include "assert.h"
 
 #define MAX(a,b) ((a) > (b) ? (a) : (b))
 #define DOUBLEERROR 1e-07
@@ -24,8 +25,73 @@ Status Operators::Join(const string& result,           // Name of the output rel
     	               const attrInfo* attr2)          // Right attr in the join predicate
 {
     /* Your solution goes here */
-
-	return OK;
+    // convert the datastructure
+    int len = 0;
+    int j;
+    int attrCnt;
+    AttrDesc * projNamesDesc,*attrDesc1,*attrDesc2;
+    projNamesDesc = new AttrDesc[projCnt];
+    Status statusGetProjectName;
+    for(j = 0 ; j <projCnt ; j++)
+    {
+        AttrDesc * attrInCata,*temp;
+        statusGetProjectName = attrCat->getRelInfo(projNames[j].relName,attrCnt,attrInCata);
+        if(statusGetProjectName != OK)
+        {
+            return statusGetProjectName;
+        }
+        int k ;
+        for (k = 0,temp = attrInCata ; k < attrCnt ; k++,temp++)
+        {
+            assert(strcmp(projNames[j].relName,temp->relName)==0);
+            if(strcmp(temp->relName,attr1->relName )==0 && strcmp(temp->attrName,attr1->attrName)==0)
+            {
+                attrDesc1 = temp;
+            }
+            if(strcmp(temp->relName,attr2->relName )==0 && strcmp(temp->attrName,attr2->attrName)==0)
+            {
+                attrDesc2 = temp;
+            }
+            if(strcmp(temp->attrName, projNames[j].attrName))
+            {
+                projNamesDesc[j]=*temp;
+                len+=temp->attrLen;
+            }
+        }
+    }
+    //convertion finish
+    if (op == EQ)
+    {
+        //check whether attr1 or attr2 has a index
+        if( attrDesc1->indexed == 1)
+        {
+            Status statusInl;
+            statusInl = INL(result, projCnt,projNamesDesc,*attrDesc2,op,*attrDesc1,len);
+            return statusInl;
+        }
+        else 
+        {
+            if(attrDesc2->indexed == 1)
+            {
+                Status statusInl;
+                statusInl = INL(result, projCnt,projNamesDesc,*attrDesc1,op,*attrDesc2,len);
+                return statusInl;
+            }
+            else
+            {
+                Status statusSmj;
+                statusSmj = SMJ(result,projCnt,projNamesDesc,*attrDesc1,op,*attrDesc2,len);
+                return statusSmj;
+            }
+        }
+    }
+    else
+    {
+        // SNL
+        Status statusSnl;
+        statusSnl = SNL(result,projCnt,projNamesDesc,*attrDesc1,op,*attrDesc2,len);
+        return statusSnl;
+    }
 }
 
 // Function to compare two record based on the predicate. Returns 0 if the two attributes 
@@ -51,8 +117,7 @@ int Operators::matchRec(const Record& outerRec,     // Left record
             memcpy(&tmpFloat1, (char *) outerRec.data + attrDesc1.attrOffset, sizeof(double));
             memcpy(&tmpFloat2, (char *) innerRec.data + attrDesc2.attrOffset, sizeof(double));
             floatDiff = tmpFloat1 - tmpFloat2;
-            return (fabs(floatDiff) < DOUBLEERROR) ? 0 : floatDiff;
-
+            return (fabs(floatDiff) < DOUBLEERROR) ? 0 : (floatDiff < 0?floor(floatDiff):ceil(floatDiff));
         case STRING:
             return strncmp(
                 (char *) outerRec.data + attrDesc1.attrOffset, 
