@@ -7,6 +7,5 @@ CREATE TABLE stars(starid integer, real_name char(20),
 
 
 -- insert with attributes in order:
-INSERT INTO stars(starid, real_name, plays) 
-	VALUES (100, 'Posey, Parker', 'Tess');
-SELECT stars.starid, soaps.soapid FROM stars,soaps;
+INSERT INTO stars(starid, real_name, plays,soapid) 
+	VALUES (100, 'Posey, Parker', 'Tess',6);

@@ -1,0 +1,3911 @@
+Welcome to Minirel
+1 --> Query:  create table soaps(soapid integer, name char(32), network char(4), rating double);
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+2 --> Query:  create table stars(starid integer, real_name char(20), plays char(12), soapid integer);
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRecstars
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRecstars
+3 --> Query:  insert into stars(starid, real_name, plays, soapid) values (100, Posey, Parker, Tess, 6);
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+-2
+inserting recordd
+inserting out rid2    2
+4 --> Query:  insert into stars (real_name, soapid, starid, plays) values (Bonarrigo, Laura, 3, 101, Cassie);
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+-3
+inserting recorde
+inserting out rid2    3
+5 --> Query:  select * from stars;
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRecstars
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRecstars
+get Next------------------3
+-4
+inserting recordTmp_M2K
+inserting out rid2    4
+-6
+inserting recordTmp_M2K
+inserting out rid3    6
+-7
+inserting recordTmp_M2K
+inserting out rid3    7
+-8
+inserting recordTmp_M2K
+inserting out rid3    8
+-9
+inserting recordTmp_M2K
+inserting out rid3    9
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+get Next------------------7
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+get Next------------------8
+rid page3rid slot9
+In getRecord offset720and length80getRecord ;dataRecTmp_M2K
+get Next------------------9
+Algorithm: File Scan
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecd
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecd
+initailingpageNo is2
+freeSpace1000
+-1
+inserting recordd
+inserting out rid2    0
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecd
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecd
+-1
+inserting recordd
+inserting out rid2    1
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecd
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecd
+-2
+inserting recordd
+inserting out rid2    2
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRece
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRece
+-3
+inserting recorde
+inserting out rid2    3
+get Next------------------3
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot4
+In getRecord offset160and length40getRecord ;dataRecTmp_M2K
+rid page2rid slot4
+In getRecord offset160and length40getRecord ;dataRecTmp_M2K
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot6
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+get Next------------------7
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+get Next------------------8
+rid page3rid slot9
+In getRecord offset720and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot9
+In getRecord offset720and length80getRecord ;dataRecTmp_M2K
+get Next------------------9
+starid.  real_name.1      plays.2       soapid.  
+-------  ---------------  ------------  -------  
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecd
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecd
+100      Posey, Parker    Tess          6        
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecd
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecd
+100      Posey, Parker    Tess          6        
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecd
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecd
+100      Posey, Parker    Tess          6        
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRece
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRece
+101      Bonarrigo, Laur  Cassie        3        
+get Next------------------3
+
+Number of records: 4
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot6
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+get Next------------------7
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+get Next------------------8
+rid page3rid slot9
+In getRecord offset720and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot9
+In getRecord offset720and length80getRecord ;dataRecTmp_M2K
+get Next------------------9
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot6
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+deleting in while
+deleting in while
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot7
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot7
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+deleting in while
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot8
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot8
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------9
+rid page2rid slot10
+In getRecord offset800and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset400and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot9
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot9
+In getRecord offset480and length80getRecord ;dataRecTmp_M2K
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot4
+In getRecord offset160and length40getRecord ;dataRecTmp_M2K
+Buf Stats: accesses = 51, disk reads = 5, disk writes = 7
+
+6 --> Query:  create index soaps (soapid);
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot9
+In getRecord offset720and length80getRecord ;dataRecsoaps
+deleting in while
+-10
+inserting recordsoaps
+inserting out rid3    6
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecsoaps
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+-5
+inserting recordsoaps
+inserting out rid2    2
+7 --> Query:  create index soaps (network);
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+8 --> Query:  create index soaps (rating);
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset80and length80getRecord ;dataRecsoaps
+deleting in while
+deleting in while
+deleting in while
+deleting in while
+deleting in while
+-10
+inserting recordsoaps
+inserting out rid3    1
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+-5
+inserting recordsoaps
+inserting out rid2    2
+9 --> Query:  insert into soaps (soapid, name, network, rating) values (100, Dallas, CBS, 8.67);
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+initailingpageNo is2
+freeSpace1000
+-1
+inserting recordd
+inserting out rid2    0
+10 --> Query:  insert into soaps (network, rating, name, soapid) values (ABC, 3.35, Loving, 101);
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+-1
+inserting recorde
+inserting out rid2    1
+11 --> Query:  select soaps.network, soaps.rating from soaps where soaps.soapid = 101;
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+-5
+inserting recordTmp_M2K
+inserting out rid2    4
+-10
+inserting recordTmp_M2K
+inserting out rid3    7
+-10
+inserting recordTmp_M2K
+inserting out rid3    8
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+get Next------------------7
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+get Next------------------8
+Algorithm: Index Select
+rid page2rid slot1
+In getRecord offset48and length48getRecord ;dataRece
+initailingpageNo is2
+freeSpace1000
+-1
+inserting recordABC
+inserting out rid2    0
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot4
+In getRecord offset160and length40getRecord ;dataRecTmp_M2K
+rid page2rid slot4
+In getRecord offset160and length40getRecord ;dataRecTmp_M2K
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+get Next------------------7
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+get Next------------------8
+network.0  rating.  
+---------  -------  
+rid page2rid slot0
+In getRecord offset0and length12getRecord ;dataRecABC
+rid page2rid slot0
+In getRecord offset0and length12getRecord ;dataRecABC
+ABC        3.35     
+get Next------------------0
+
+Number of records: 1
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+get Next------------------7
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+get Next------------------8
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot8
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot8
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot4
+In getRecord offset160and length40getRecord ;dataRecTmp_M2K
+Buf Stats: accesses = 38, disk reads = 7, disk writes = 8
+
+12 --> Query:  select stars.soapid, stars.real_name from stars;
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+-5
+inserting recordTmp_M2K
+inserting out rid2    4
+-10
+inserting recordTmp_M2K
+inserting out rid3    7
+-10
+inserting recordTmp_M2K
+inserting out rid3    8
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+get Next------------------7
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+get Next------------------8
+Algorithm: File Scan
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecd
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecd
+initailingpageNo is2
+freeSpace1000
+-1
+inserting record
+inserting out rid2    0
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecd
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecd
+-1
+inserting record
+inserting out rid2    1
+get Next------------------1
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecd
+rid page2rid slot2
+In getRecord offset80and length40getRecord ;dataRecd
+-2
+inserting record
+inserting out rid2    2
+get Next------------------2
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRece
+rid page2rid slot3
+In getRecord offset120and length40getRecord ;dataRece
+-3
+inserting record
+inserting out rid2    3
+get Next------------------3
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot4
+In getRecord offset160and length40getRecord ;dataRecTmp_M2K
+rid page2rid slot4
+In getRecord offset160and length40getRecord ;dataRecTmp_M2K
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+get Next------------------7
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+get Next------------------8
+soapid.  real_name.1      
+-------  ---------------  
+rid page2rid slot0
+In getRecord offset0and length24getRecord ;dataRec
+rid page2rid slot0
+In getRecord offset0and length24getRecord ;dataRec
+6        Posey, Parker    
+get Next------------------0
+rid page2rid slot1
+In getRecord offset24and length24getRecord ;dataRec
+rid page2rid slot1
+In getRecord offset24and length24getRecord ;dataRec
+6        Posey, Parker    
+get Next------------------1
+rid page2rid slot2
+In getRecord offset48and length24getRecord ;dataRec
+rid page2rid slot2
+In getRecord offset48and length24getRecord ;dataRec
+6        Posey, Parker    
+get Next------------------2
+rid page2rid slot3
+In getRecord offset72and length24getRecord ;dataRec
+rid page2rid slot3
+In getRecord offset72and length24getRecord ;dataRec
+3        Bonarrigo, Laur  
+get Next------------------3
+
+Number of records: 4
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+get Next------------------7
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot8
+In getRecord offset640and length80getRecord ;dataRecTmp_M2K
+get Next------------------8
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot7
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page3rid slot8
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page3rid slot8
+In getRecord offset560and length80getRecord ;dataRecTmp_M2K
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+get Next------------------2
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+get Next------------------3
+rid page2rid slot4
+In getRecord offset160and length40getRecord ;dataRecTmp_M2K
+Buf Stats: accesses = 39, disk reads = 5, disk writes = 7
+
+13 --> Query:  drop table soaps;
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+get Next------------------6
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+deleting in while
+-10
+inserting recordsoaps
+inserting out rid3    6
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset400and length80getRecord ;dataRecsoaps
+deleting in while
+-10
+inserting recordsoaps
+inserting out rid3    1
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+get Next------------------10
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+get Next------------------0
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset480and length80getRecord ;dataRecsoaps
+get Next------------------1
+rid page3rid slot2
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset320and length80getRecord ;dataRecstars
+get Next------------------5
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+rid page3rid slot6
+In getRecord offset400and length80getRecord ;dataRecsoaps
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot10
+In getRecord offset720and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+rid page3rid slot0
+In getRecord offset0and length80getRecord ;dataRecsoaps
+deleting in while
+deleting in while
+deleting in while
+deleting in while
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page3rid slot1
+In getRecord offset320and length80getRecord ;dataRecsoaps
+rid page3rid slot1
+In getRecord offset320and length80getRecord ;dataRecsoaps
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset120and length40getRecord ;dataRecsoaps
+14 --> Query:  drop table stars;
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page3rid slot2
+In getRecord offset0and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset0and length80getRecord ;dataRecstars
+get Next------------------2
+rid page3rid slot3
+In getRecord offset80and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset80and length80getRecord ;dataRecstars
+get Next------------------3
+rid page3rid slot4
+In getRecord offset160and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset160and length80getRecord ;dataRecstars
+get Next------------------4
+rid page3rid slot5
+In getRecord offset240and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset240and length80getRecord ;dataRecstars
+get Next------------------5
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page3rid slot2
+In getRecord offset0and length80getRecord ;dataRecstars
+rid page3rid slot2
+In getRecord offset0and length80getRecord ;dataRecstars
+deleting in while
+deleting in while
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page3rid slot3
+In getRecord offset0and length80getRecord ;dataRecstars
+rid page3rid slot3
+In getRecord offset0and length80getRecord ;dataRecstars
+deleting in while
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page3rid slot4
+In getRecord offset0and length80getRecord ;dataRecstars
+rid page3rid slot4
+In getRecord offset0and length80getRecord ;dataRecstars
+deleting in while
+rid page2rid slot0
+In getRecord offset0and length80getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset80and length80getRecord ;dataRecrelcat
+get Next------------------1
+rid page2rid slot2
+In getRecord offset160and length80getRecord ;dataRecrelcat
+get Next------------------2
+rid page2rid slot3
+In getRecord offset240and length80getRecord ;dataRecattrcat
+get Next------------------3
+rid page2rid slot4
+In getRecord offset320and length80getRecord ;dataRecattrcat
+get Next------------------4
+rid page2rid slot5
+In getRecord offset400and length80getRecord ;dataRecattrcat
+get Next------------------5
+rid page2rid slot6
+In getRecord offset480and length80getRecord ;dataRecattrcat
+get Next------------------6
+rid page2rid slot7
+In getRecord offset560and length80getRecord ;dataRecattrcat
+get Next------------------7
+rid page2rid slot8
+In getRecord offset640and length80getRecord ;dataRecattrcat
+get Next------------------8
+rid page3rid slot5
+In getRecord offset0and length80getRecord ;dataRecstars
+rid page3rid slot5
+In getRecord offset0and length80getRecord ;dataRecstars
+rid page2rid slot0
+In getRecord offset0and length40getRecord ;dataRecrelcat
+get Next------------------0
+rid page2rid slot1
+In getRecord offset40and length40getRecord ;dataRecattrcat
+get Next------------------1
+rid page2rid slot3
+In getRecord offset80and length40getRecord ;dataRecstars
+15 --> 
