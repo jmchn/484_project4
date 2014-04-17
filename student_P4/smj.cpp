@@ -131,13 +131,10 @@ Status Operators::SMJ(const string& result,           // Output relation name
               }
 
               rightnext = right-> next(rightnextrec);
-              if(rightnext != FILEEOF)
-              {
-                  if (matchRec (rightrec, rightnextrec, attrDesc2,attrDesc2) ==  0){
+              if (matchRec (rightrec, rightnextrec, attrDesc2,attrDesc2) ==  0&& rightnext!=FILEEOF){
                       // if there are multiple same value in the right hand side
                         rightrec = rightnextrec; 
-                  } 
-              }
+                } 
               else {
                   // if there is another record with the same value on the left hand side
                     leftnext = left ->next(leftnextrec);
@@ -168,8 +165,6 @@ Status Operators::SMJ(const string& result,           // Output relation name
   }
  delete left;
  delete right;
- delete leftAttrInCat;
- delete rightAttrInCat;
 
   return OK;
 }

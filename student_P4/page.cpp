@@ -184,6 +184,10 @@ const Status Page::nextRecord (const RID &curRid, RID& nextRid) const
 {
     /* Solution Here */
     //check Rid
+    if(curRid.pageNo ==-1)
+    {
+        return ENDOFPAGE;
+    }
     if(curRid.pageNo != curPage || curRid.slotNo>(- slotCnt) || curRid.slotNo <0)
     {
         return INVALIDSLOTNO;
