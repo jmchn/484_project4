@@ -19,7 +19,8 @@ Status Operators::SMJ(const string& result,           // Output relation name
 
   /* Your solution goes here */
   unsigned BytesOfavailablepages;
-  BytesOfavailablepages = 1000 * (bufMgr -> numUnpinnedPages());
+  // get the 80% of the unpinned pages;
+  BytesOfavailablepages = 0.8 *1000 * (bufMgr -> numUnpinnedPages());
   int numberOfLeftTuples, numberOfRightTuples;
   int leftTupleSize = 0;
   int rightTupleSize = 0; 
@@ -31,7 +32,7 @@ Status Operators::SMJ(const string& result,           // Output relation name
   if (statusAfterGetLeftRelInfo != OK){
     return statusAfterGetLeftRelInfo;
   }
-
+// calculating the tuple length.
   for(int i = 0; i< leftAttrCnt;i++){
     leftTupleSize += leftAttrInCat->attrLen;
     leftAttrInCat ++;
@@ -59,7 +60,7 @@ Status Operators::SMJ(const string& result,           // Output relation name
     return StatusAfterOpenResult;
   }
 
-
+// constructing sortfile;
   Status statusAfterSortingLeft,statusAfterSortingRight;
   SortedFile *left, *right;
   left = new SortedFile(attrDesc1.relName, attrDesc1.attrOffset,attrDesc1.attrLen,
@@ -80,6 +81,7 @@ Status Operators::SMJ(const string& result,           // Output relation name
   leftnext = left->next(leftrec);
   rightnext = right->next(rightrec);
   while ((leftnext == OK) && (rightnext  == OK)){
+    // examine for the equality
     if (matchRec(leftrec,rightrec,attrDesc1,attrDesc2) < 0){
       leftnext =left -> next(leftrec);
     } 
@@ -89,6 +91,10 @@ Status Operators::SMJ(const string& result,           // Output relation name
     else{
               if (SetOrNot == 0){
                 rightSetMark = right -> setMark();
+                if(rightSetMark != OK)
+                {
+                    return rightSetMark;
+                }
                 SetOrNot = 1;
               }
               int i;
@@ -118,13 +124,19 @@ Status Operators::SMJ(const string& result,           // Output relation name
 
               rightnext = right-> next(rightnextrec);
               if (matchRec (rightrec, rightnextrec, attrDesc2,attrDesc2) == 0){
+                  // if there are multiple same value in the right hand side
                     rightrec = rightnextrec; 
               } 
               else {
+                  // if there is another record with the same value on the left hand side
                     leftnext = left ->next(leftnextrec);
                     if (matchRec(leftrec,leftnextrec,attrDesc1,attrDesc1) == 0){
                         leftrec = leftnextrec; 
                         rightgotoMark = right -> gotoMark();
+                        if(rightgotoMark != OK)
+                        {
+                            return rightgotoMark;
+                        }
                         rightnext = right->next(rightrec);
                     }
                     else {
