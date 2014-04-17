@@ -93,6 +93,10 @@ Status Operators::SMJ(const string& result,           // Output relation name
                 rightSetMark = right -> setMark();
                 if(rightSetMark != OK)
                 {
+                    delete left;
+                    delete right;
+                    delete leftAttrInCat;
+                    delete rightAttrInCat;
                     return rightSetMark;
                 }
                 SetOrNot = 1;
@@ -119,22 +123,37 @@ Status Operators::SMJ(const string& result,           // Output relation name
               statusInsertRec = resultHeapFile.insertRecord(resultRec,dummy);
               if(statusInsertRec != OK)
               {
+                    delete left;
+                    delete right;
+                    delete leftAttrInCat;
+                    delete rightAttrInCat;
                     return statusInsertRec;
               }
 
               rightnext = right-> next(rightnextrec);
-              if (matchRec (rightrec, rightnextrec, attrDesc2,attrDesc2) == 0){
-                  // if there are multiple same value in the right hand side
-                    rightrec = rightnextrec; 
-              } 
+              if(rightnext != FILEEOF)
+              {
+                  if (matchRec (rightrec, rightnextrec, attrDesc2,attrDesc2) ==  0){
+                      // if there are multiple same value in the right hand side
+                        rightrec = rightnextrec; 
+                  } 
+              }
               else {
                   // if there is another record with the same value on the left hand side
                     leftnext = left ->next(leftnextrec);
+                    if(leftnext == FILEEOF)
+                    {
+                        break;
+                    }
                     if (matchRec(leftrec,leftnextrec,attrDesc1,attrDesc1) == 0){
                         leftrec = leftnextrec; 
                         rightgotoMark = right -> gotoMark();
                         if(rightgotoMark != OK)
                         {
+                            delete left;
+                            delete right;
+                            delete leftAttrInCat;
+                            delete rightAttrInCat;
                             return rightgotoMark;
                         }
                         rightnext = right->next(rightrec);
@@ -149,7 +168,8 @@ Status Operators::SMJ(const string& result,           // Output relation name
   }
  delete left;
  delete right;
-  
+ delete leftAttrInCat;
+ delete rightAttrInCat;
 
   return OK;
 }
